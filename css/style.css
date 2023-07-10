@@ -9,8 +9,10 @@ header{
 }
 
 main, footer{
-  margin: 10px;
+  margin: auto;
+  width: 68%;
 }
+
 footer{
   margin-top: 40px;
 }
@@ -114,7 +116,7 @@ footer>p{
   font-size: large;
   font-weight: 700;
   position: relative;
-  
+  margin-bottom: 25px;
 }
 .imgovertext{
   position: absolute;
