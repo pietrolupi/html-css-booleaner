@@ -61,20 +61,27 @@ p>a{
 }
 
 /* MAIN section3 */
+table{
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+td, th{
+  width: calc(100% /3);
+}
+
+tbody>tr, tfoot>tr {
+height: 50px;
+}
 
 #blue-background{
   background-color: #23a9e5;
   color: white;
   font-weight: bold;
 }
-
-.center-align{
-  text-align: center;
+#lightblue-background{
+  background-color: #b1e5f2;
 }
-
-.right-align{
-  text-align: right;
-}
-.left-align{
+th{ 
   text-align: left;
 }
