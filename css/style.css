@@ -8,8 +8,11 @@ header{
   position: relative;
 }
 
-main{
+main, footer{
   margin: 10px;
+}
+footer{
+  margin-top: 40px;
 }
 
 li{
@@ -84,4 +87,37 @@ height: 50px;
 }
 th{ 
   text-align: left;
+}
+
+/* FOOTER */
+
+footer>p{
+  color: grey;
+  font-weight: bold;
+}
+
+#schermoimg{
+  background-image: url(../img/monitor.jpg);
+  width: 312px;
+  height: 208px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 25px;
+}
+#graficoimg{
+  background-image: url(../img/graph.jpg);
+  width: 312px;
+  height: 208px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  position: relative;
+  
+}
+.imgovertext{
+  position: absolute;
+  top: 10px;
+  left: 8px;
 }
