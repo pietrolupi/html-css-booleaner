@@ -11,6 +11,13 @@ header{
 main{
   margin: 10px;
 }
+
+li{
+  margin-bottom: 5px;
+}
+span{
+  background-color: #eeee6b;
+}
 /* HEADER */
 #background-color, #background-img{
   width: 100%;
@@ -47,3 +54,9 @@ p>a{
 #pic-description{
   font-size: smaller;
 }
+/* MAIN section2 */
+#central-paragraph{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
