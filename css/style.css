@@ -15,7 +15,7 @@ main{
 li{
   margin-bottom: 5px;
 }
-span{
+.underline{
   background-color: #eeee6b;
 }
 /* HEADER */
@@ -60,3 +60,21 @@ p>a{
   margin-bottom: 20px;
 }
 
+/* MAIN section3 */
+
+#blue-background{
+  background-color: #23a9e5;
+  color: white;
+  font-weight: bold;
+}
+
+.center-align{
+  text-align: center;
+}
+
+.right-align{
+  text-align: right;
+}
+.left-align{
+  text-align: left;
+}
